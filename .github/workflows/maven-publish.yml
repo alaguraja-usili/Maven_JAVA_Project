@@ -12,10 +12,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-
     steps:
     - name: STEP-1  - Checkout main branch from Github
       uses: actions/checkout@v3
